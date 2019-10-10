@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-nav />
+    <!-- <app-nav /> -->
     <router-view />
     <app-footer />
   </div>
@@ -19,36 +19,36 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/main.scss";
+// @import "@/assets/main.scss";
 
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
+// html {
+//   line-height: 1.15; /* 1 */
+//   -webkit-text-size-adjust: 100%; /* 2 */
+// }
 
-* {
-  box-sizing: border-box;
-}
+// * {
+//   box-sizing: border-box;
+// }
 
-body {
-  margin: 0;
-}
+// body {
+//   margin: 0;
+// }
 
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+// #app {
+//   font-family: "Avenir", Helvetica, Arial, sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   text-align: center;
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
 
-main {
-  flex: 1;
-}
+// main {
+//   flex: 1;
+// }
 
-main {
-  display: block;
-}
+// main {
+//   display: block;
+// }
 </style>
